@@ -1,13 +1,18 @@
-.result-text{
-    
-}
-
-.sub-text{
-
+#all{
+    padding: auto;
+    font-weight: bold;
 
 }
+#result-text{
+    font-size: large;
+}
 
-.userInput{
+#sub-text{
+
+
+}
+
+#userInput{
 
     border-radius: 20px;
 }
