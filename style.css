@@ -1,18 +1,39 @@
 #all{
-    padding: auto;
-    font-weight: bold;
+    height: 1000px;
+    background-image: url("https://project.groupidd.com/assets/images/case-studies/11/img_visual.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-#result-text{
+
+#box1 {
+    text-align: center;
+    border: black 4px solid;
+    border-radius: 4px;
+    padding-bottom: 30px;
+}
+
+
+#result-text {
     font-size: large;
+    color: brown;
 }
 
-#sub-text{
-
-
+#sub-text {
+    color: brown;
 }
 
-#userInput{
+#userInput {
 
     border-radius: 20px;
+}
+
+
+#play-button{
+    color: brown;
+
+}
+#reset-button{
+    color: brown;
 }
