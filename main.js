@@ -71,6 +71,8 @@ function play(){
 
     if(chance < 1){
         GameOver = true; //기회 5번 사용하면 게임오버
+        ResultText.textContent = "못 맞췄네요..!!";
+        SubText.textContent = "다시 도전해보세요!^^";
     }
 
     if(GameOver){
