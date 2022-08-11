@@ -64,6 +64,7 @@ function play(){
         ResultText.textContent = "정답입니다~!!";
         SubText.textContent = "축하합니다! 한번 더 도전해보세요!";
         GameOver = true;
+        return;
     }
 
     history.push(userInput); //배열에 사용자가 입력한 값 저장 
@@ -87,5 +88,6 @@ function reset(){
     SubText.textContent = `남은 기회는 ${chance}번이야!`
     UserInput.value = "";
     PlayButton.disabled = false;
+    createNumber();
     
 }
